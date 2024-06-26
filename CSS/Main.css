@@ -1,0 +1,468 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*Top Strony */
+#top_strony{
+    width: 100%;
+    height: 100%;
+    background: url(../image/bg.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+   
+}
+#top5_strony{
+    width: 100%;
+    height: 100%;
+    background: url(../image/bg.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+    #top6_strony{
+      width: 150%;
+      height: 100%;
+      background: url(../image/bg.jpg) no-repeat center;
+      background-size: cover;
+      background-attachment: fixed;
+      scrollbar-width: 100%;
+}
+
+h1{
+    color: rgb(209, 214, 230);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    
+}
+h2{
+    color: rgb(209, 214, 230);
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    
+}
+/*PARAGRAF CSS*/
+
+#top_strony a:hover{
+  color: rgb(235, 236, 238);
+  
+}
+
+.p-video{
+  color: rgb(235, 236, 238);
+  text-align: left;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left:90px;
+  margin-top: 40px;
+}
+
+
+.contact{
+  color: rgb(235, 236, 238);
+  text-align: left;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 700px;
+}
+
+.O3{
+  color: rgb(209, 214, 230);
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-right: 700px;
+}
+.O2{
+  color: rgb(209, 214, 230);
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 700px;
+  
+
+}
+
+.witaj{
+    color: rgb(209, 214, 230);
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.link{
+    color: rgb(235, 217, 232);
+    text-decoration: none;
+}
+
+.link:hover{
+
+transform: scale(1,06);
+color: aqua;
+
+}
+
+/*buttons CSS*/
+
+.mnie{
+  
+  background-color: #1a6b9e;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #d4af37; 
+  border-radius: 10px 10px 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  transition: all 0.5 ease;
+}
+    
+.kariera{
+  background-color: #1a6b9e;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #d4af37; 
+  border-radius: 10px 10px 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+    top: 220px;
+    left: 20px;
+    transition: all 0.5 ease
+
+}
+
+.projekty{
+  background-color: #1a6b9e;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #d4af37; 
+  border-radius: 10px 10px 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+    top: 280px;
+    left: 20px;
+    transition: all 0.5 ease
+
+}
+
+.galeria{
+  background-color: #1a6b9e;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #d4af37; 
+  border-radius: 10px 10px 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+    top: 340px;
+    left: 20px;
+    transition: all 0.5 ease
+}
+
+.dyplomy{
+  background-color: #1a6b9e;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #d4af37; 
+  border-radius: 10px 10px 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+    top: 400px;
+    left: 20px; 
+    transition: all 0.5 ease
+}
+
+.kontakt{
+  background-color: #1a6b9e;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #d4af37; 
+  border-radius: 10px 10px 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+    top: 460px;
+    left: 20px; 
+    transition: all 0.5 ease
+}
+
+/*buttons Hover efect*/
+.mnie:hover{
+    background-color: rgb(86, 144, 194);
+    transform: scale(1.05);
+}
+
+.kariera:hover{
+    background-color: rgb(86, 144, 194);
+    transform: scale(1.05);
+
+}
+
+
+.projekty:hover{
+    background-color: rgb(86, 144, 194);
+    transform: scale(1.05);
+    
+}
+
+.galeria:hover{
+    background-color: rgb(86, 144, 194);
+    transform: scale(1.05);
+   
+}
+
+.dyplomy:hover{
+    background-color: rgb(86, 144, 194);
+    transform: scale(1.05);
+}
+
+.kontakt:hover{
+    background-color: rgb(86, 144, 194);
+    transform: scale(1.05);
+}
+.link:hover{
+    color: black;
+}
+
+/*Image.Dyplomy CSS*/
+
+.conteiner{
+  display: flex;
+  justify-content: space-around;
+  justify-self: auto;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.img1{
+  border: solid;
+  border-color: antiquewhite;
+  cursor: pointer;
+
+}
+
+.img2{
+  border: solid;
+  border-color: rgb(204, 27, 115);
+  cursor: pointer;
+
+}
+
+.img3{
+  border: solid;
+  border-color: rgb(64, 14, 202);
+  cursor: pointer;
+
+}
+
+.img4{
+  border: solid;
+  border-color: rgb(11, 175, 216);
+  cursor: pointer;
+
+}
+
+.img5{
+  border: solid;
+  border-color: rgb(8, 168, 88);
+  cursor: pointer;
+
+}
+
+.img6{
+  border: solid;
+  border-color: rgb(236, 142, 35);
+  cursor: pointer;
+
+}
+
+.img1:hover{
+  transform: scale(1.05);
+}
+
+.img2:hover{
+  transform: scale(1.05);
+}
+
+.img3:hover{
+  transform: scale(1.05);
+}
+
+.img4:hover{
+  transform: scale(1.05);
+}
+
+.img5:hover{
+  transform: scale(1.05);
+}
+
+.img6:hover{
+  transform: scale(1.05);
+}
+
+.img1:active{
+  margin-left: 120px;
+  transform: scale(1.5);
+}
+
+.img2:active{
+  margin-left: 120px;
+  transform: scale(1.5);
+}
+
+.img3:active{
+  margin-left: 120px;
+  transform: scale(1.5);
+}
+
+.img4:active{
+  margin-left: 120px;
+  transform: scale(1.5);
+}
+
+.img5:active{
+  margin-left: 120px;
+  transform: scale(1.5);
+}
+
+.img6:active{
+  margin-right: 120px;
+  transform: scale(1.5);
+}
+
+
+/*Galeria CSS Setup*/
+.photo-container{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  
+}
+
+
+.photo1{
+  border:solid 10px;
+  border-color:white;
+  background-color: white;
+  cursor: pointer;
+  
+}
+
+.photo2{
+  border:solid 10px;
+  border-color:white;
+  background-color: white;
+  cursor: pointer;
+}
+
+.photo3{
+  border:solid 10px;
+  border-color:white;
+  background-color: white;
+  cursor: pointer;
+}
+
+.photo4{
+  border:solid 10px;
+  border-color:white;
+  background-color: white;
+  cursor: pointer;
+}
+
+.photo5{
+  border:solid 10px;
+  border-color:white;
+  background-color: white;
+  cursor: pointer;
+}
+
+.photo1:hover{
+  position: relative;
+  bottom:20px;
+  
+}
+
+.photo2:hover{
+  position: relative;
+  bottom:20px;
+  
+}
+
+.photo3:hover{
+  position: relative;
+  bottom:20px;
+  
+}
+
+.photo4:hover{
+  position: relative;
+  bottom:20px;
+
+}
+
+.photo5:hover{
+  position: relative;
+  bottom:20px;
+
+}
+
+  /*Strona O mnie Zdjęcie*/
+
+  img.align-right{
+    float: right;
+    margin-right: 10px;
+  }
+
+  img.align-left{
+    float: left;
+    margin-right: 10px;
+  }
+
+/*iframe */
+.mapa{
+  position: absolute;
+  left: 700px;
+}
+
+.video{
+  display: flex;
+  justify-content: space-around;
+  justify-items: start;
+  margin-left:80px;
+  
+  
+  
+}
+
