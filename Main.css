@@ -457,12 +457,9 @@ color: aqua;
 }
 
 .video{
-  display: flex;
-  justify-content: space-around;
-  justify-items: start;
-  margin-left:80px;
-  
-  
+aspect-ratio:16/9;
+width: 450;
+margin-left: 80px;
   
 }
 
